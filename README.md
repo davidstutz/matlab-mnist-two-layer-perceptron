@@ -2,6 +2,8 @@
 
 In course of a seminar on “Selected Topics in Human Language Technology and Pattern Recognition”, I wrote a seminar paper on neural networks: "Introduction to Neural Networks". The seminar paper and the slides of the corresponding talk can be found in my blog article: [Seminar Paper “Introduction to Neural Networks”](http://davidstutz.de/seminar-paper-introduction-neural-networks/). Background on neural networks and the two-layer perceptron can be found in my seminar paper.
 
+**Update:** The code can be adapted to allow mini-batch training as done in [this fork](https://github.com/Myasuka/matlab-mnist-two-layer-perceptron).
+
 ## MNIST Dataset
 
 The [MNIST dataset](http://yann.lecun.com/exdb/mnist/) provides a training set of 60,000 handwritten digits and a validation set of 10,000 handwritten digits. The images have size 28 x 28 pixels. Therefore, when using a two-layer perceptron, we need 28 x 28 = 784 input units and 10 output units (representing the 10 different digits).
